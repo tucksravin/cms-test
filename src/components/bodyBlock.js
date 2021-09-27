@@ -1,8 +1,8 @@
 import * as React from "react"
 
-const BodyBlock = () =>{
+const BodyBlock = (props) =>{
 return(
-<div> <p> this is where a body text variable will go </p> </div>
+<div> <p> {props.bodyText} </p> </div>
 
 )
 }

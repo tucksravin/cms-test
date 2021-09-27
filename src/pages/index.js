@@ -10,8 +10,8 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <TitleBlock />
-    <BodyBlock />
+    <TitleBlock titleText="this is my title" />
+    <BodyBlock bodyText="this is where a body text variable will go"/>
 
     <StaticImage
       src="../images/gatsby-astronaut.png"
